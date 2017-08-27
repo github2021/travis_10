@@ -3,7 +3,8 @@ module.exports = function(config) {
   //  browsers: ['Chrome'],
     //browsers: ['Firefox'],
     //browsers: ['PhantomJS'],
-    browsers: ['phantomjs'],
+    //browsers: ['phantomjs'],
+    browsers: ['Firefox'],
     frameworks: ['jasmine'],
     files: [
       'src/**/*.js',
