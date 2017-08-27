@@ -8,6 +8,12 @@ node_js:
 #  - sh -e /etc/init.d/xvfb start
 
 
+before_install:
+#  - gem update # optional, update all gems
+#  - gem install selenium-webdriver
+  - phantomjs --version # 
+
+
 
 addons:
   firefox: latest
@@ -23,3 +29,10 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3
   - fluxbox >/dev/null 2>&1 &
+
+ # - "npm install -g bower"
+ # - "npm install -g phantomjs"
+ # - "mysql -e 'create database jksdjksdjdjks;'"
+ # - "cp ./config/database.travis.yml ./config/database.yml"
+ # - "RAILS_ENV=test bundle exec rake db:migrate"
+ # - "bundle exec rake bower:install"

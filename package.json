@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp tiita"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "jasmine": "^2.4.1",
     "karma": "1.x || ^0.13.0",
     "karma-chrome-launcher": "1.x || ^0.2.0",
-    "karma-jasmine": "1.x || ^0.3.6"
+    "karma-jasmine": "1.x || ^0.3.6",
+    "karma-phantomjs-launcher": "1.x || ^0.2.0",
+    "phantomjs": "^2.1.7"
   }
 }
