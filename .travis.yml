@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - "4"
+#  - "4"
   - "5"
 #before_script:
 #  - export DISPLAY=:99.0
@@ -11,7 +11,7 @@ node_js:
 before_install:
 #  - gem update # optional, update all gems
 #  - gem install selenium-webdriver
-  - phantomjs --version # 
+  - phantomjs --version
 
 
 
